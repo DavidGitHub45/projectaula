@@ -37,3 +37,7 @@
 .navbar-menuitem a:hover {
     color: #FFFFFF;
 }
+
+.navbar-toggle {
+    color: #FFFFFF;
+}
