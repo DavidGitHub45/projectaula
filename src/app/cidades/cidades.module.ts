@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NavbarComponent } from './navbar/navbar.component';
+import { CidadesPesquisaComponent } from './cidades-pesquisa/cidades-pesquisa.component';
 import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
-  declarations: [NavbarComponent],
+  declarations: [CidadesPesquisaComponent],
   exports:[
-    NavbarComponent
+    CidadesPesquisaComponent
   ],
   imports: [
     CommonModule,
     RouterModule
   ]
 })
-export class CoreModule { }
+export class CidadesModule { }
